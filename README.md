@@ -7,10 +7,10 @@ End-to-end SIEM lab: Detecting RDP Brute Force attacks using Splunk, Sysmon, and
 ---
 
 ## 🛠️ Phase 1: Sandbox Setup
-![01_lab_inventory.png](images/01_lab_inventory.png)
+![01_lab_inventory.png](images/01_Lab_Inventory.png)
 **01_lab_inventory.png** This project utilizes VirtualBox as the hypervisor to manage a virtualized SOC environment. The infrastructure consists of a Windows 10 Pro victim (endpoint) and a Kali Linux machine for controlled attack simulations.
 
-![02_baseline_snapshots.png](images/02_baseline_snapshots.png)
+![02_baseline_snapshots.png](images/02_snapshots.png)
 **02_baseline_snapshots.png** Established Baseline Snapshots for all virtual machines prior to configuration. This provides a fail-safe restoration point, allowing the environment to be reset to a 'clean' state after executing malicious code or intrusive scans.
 
 ![03_windows_static_ip.png](images/03_windows_static_ip.png)
